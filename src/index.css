@@ -1,0 +1,17 @@
+@import "tailwindcss";
+.item-head{
+  @apply rounded-[10px] hover:backdrop-blur-[10px] cursor-pointer hover:bg-[#ffffff17] p-1.5
+}
+.item-ul{
+  @apply rounded-[2px] cursor-pointer hover:bg-[#ffffff17] w-full text-center h-7 p-2 flex justify-end gap-1 items-center
+}
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
