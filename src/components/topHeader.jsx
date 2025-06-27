@@ -1,7 +1,7 @@
 const TopHeader = () => {
   return (
     <>
-      <nav className="w-full h-18 bg-[#151515] top-[0] text-white flex justify-center relative">
+      <nav className="w-full h-18 z-2  top-[0] text-white flex justify-center relative">
         <div className="text-[15px] font-bold w-[90%] h-full flex items-center justify-between">
           <div className="flex items-center gap-5">
             <div className="backdrop-blur-[10px] bg-[#ffffff17] hover:bg-[#ffffff09] text-center p-[12px] w-18 rounded-[10px] cursor-pointer">
