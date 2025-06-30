@@ -7,7 +7,7 @@ import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
 const Slider = () => {
   return (
     <>
-      <div className="mt-[-73px] relative">
+      <div className=" relative">
         <div className="absolute flex bottom-40 left-20 gap-2">
           <button className="custom-prev nav-btn ">
             <i class="bi bi-chevron-left"></i>

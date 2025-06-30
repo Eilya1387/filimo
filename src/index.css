@@ -12,7 +12,7 @@
   @apply flex flex-col gap-5 absolute right-20 bottom-40 items-end
 }
 .btn{
-  @apply w-50 h-13 rounded-[10px] bg-white text-black font-bold text-[15px] text-center flex items-center justify-center  
+  @apply w-50 h-13 rounded-[10px] bg-white text-black font-bold text-[15px] text-center flex items-center justify-center  cursor-pointer
 }
 @tailwind utilities;
 html {
@@ -22,5 +22,6 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #151515;
 }
 
