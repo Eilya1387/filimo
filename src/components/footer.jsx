@@ -8,7 +8,7 @@ const Footer = () => {
               <i class="bi bi-caret-up-fill"></i> شبکه های اجتماعی
             </span>
 
-            <ul className="bg-[#151515]  rounded-[10px] absolute bottom-5 p-5 w-40  flex flex-col justify-center items-end gap-3 text-center invisible group-hover:visible">
+            <ul className="bg-[#1e1e1e]  rounded-[10px] absolute bottom-5 p-5 w-40  flex flex-col justify-center items-end gap-3 text-center invisible group-hover:visible">
               <li className="item-ul">
                 آپارات <i class="bi bi-camera-reels"></i>
               </li>
@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="flex items-center gap-5">
             <div className="item-head group">
               سایر لینک ها
-              <ul className="bg-[#151515]  rounded-[10px] absolute bottom-6 right-0 p-5 w-50  flex flex-col justify-center items-end gap-2 text-center invisible group-hover:visible">
+              <ul className="bg-[#1e1e1e]  rounded-[10px] absolute bottom-6 right-0 p-5 w-50  flex flex-col justify-center items-end gap-2 text-center invisible group-hover:visible">
                 <li className="item-ul"> قوانین</li>
                 <li className="item-ul"> به ما بپیوندید</li>
                 <li className="item-ul"> تبلیغات در فیلیمو</li>
