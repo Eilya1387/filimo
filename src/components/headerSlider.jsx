@@ -4,6 +4,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
+import Counter from "./countdown";
 const Slider = () => {
   return (
     <>
@@ -34,6 +35,7 @@ const Slider = () => {
             >
               <div className="master-btn">
                 <img src="/breakfast.webp" alt="brakfast" />
+                 <Counter/>
                 <button className="btn">اطلاعات بیشتر <i class="bi bi-play-fill text-[30px]"></i></button>
               </div>
             </div>
@@ -44,8 +46,7 @@ const Slider = () => {
               style={{ backgroundImage: "url('/slide2.webp')" }}
             >
               <div className="master-btn">
-                
-                <button className="btn">اطلاعات بیشتر <i class="bi bi-play-fill text-[30px]"></i></button>
+              <button className="btn">اطلاعات بیشتر <i class="bi bi-play-fill text-[30px]"></i></button>
               </div>
             </div>
           </SwiperSlide>
