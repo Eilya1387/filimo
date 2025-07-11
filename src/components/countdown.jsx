@@ -16,22 +16,22 @@ const Counter = () => {
             return <span>⏳ زمان تمام شد!</span>;
           } else {
             return (
-              <div className="flex gap-2">
-                <div className="counter">
+              <div className="flex gap-1 text-lg ">
+                <div className="counter bg-[#00000053]">
                   <span className="text-shadow text-shadow-lg/5">روز</span>
-                  <span className="p-1 rounded-lg bg-black">{days}</span>
+                  <span className="p-1 rounded-lg ">{days}</span>
                 </div>
-                <div className="counter">
-                  <span>ساعت</span>
-                  <span  className="p-1 rounded-lg bg-black">{hours}</span>
+                <div className="counter bg-[#00000053] ">
+                
+                  <span  className="p-1 rounded-lg ">{hours}</span>
                 </div>
-                <div className="counter">
-                  <span>دقیقه</span>
-                  <span className="p-1 rounded-lg bg-black">{minutes}</span>
+                <div className="counter bg-[#00000053]">
+                  
+                  <span className="p-1 rounded-lg ">{minutes}'</span>
                 </div>
-                <div className="counter">
-                  <span>ثانیه</span>
-                  <span className="p-1 rounded-lg bg-black">{seconds}</span>
+                <div className="counter bg-[#00000053] rounded-r-lg">
+                 
+                  <span className="p-1 rounded-lg ">{seconds}"</span>
                 </div>
               </div>
             );

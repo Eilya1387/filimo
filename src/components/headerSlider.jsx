@@ -30,7 +30,7 @@ const Slider = () => {
         >
           <SwiperSlide>
             <div
-              className="w-full h-full bg-cover bg-center flex items-end p-10 text-white"
+              className="w-full h-full bg-cover bg-center flex items-end p-10 text-white" 
               style={{ backgroundImage: "url('/slide1.webp')" }}
             >
               <div className="master-btn">
@@ -90,4 +90,3 @@ const Slider = () => {
 };
 
 export default Slider;
-<></>;

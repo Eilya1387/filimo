@@ -14,7 +14,7 @@ const TopHeader = () => {
   return (
     <>
           <nav
-      className={`w-full h-18 z-20 top-0 fixed flex justify-center text-white transition-colors duration-300 ${
+      className={`w-full h-18 z-30 top-0 fixed flex justify-center text-white transition-colors duration-300 ${
         scrolled ? "bg-[#151515]" : "bg-transparent"
       }`}
     >

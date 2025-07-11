@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <footer className="z-2 text-[12px] font-bold flex items-center w-full h-9 bg-[#151515] fixed bottom-0 justify-center text-white">
+      <footer className="z-21 text-[12px] font-bold flex items-center w-full h-9 bg-[#151515] fixed bottom-0 justify-center text-white">
         <div className="flex items-center justify-between w-[90%]">
           <div className="relative group">
             <span className="item-head ">

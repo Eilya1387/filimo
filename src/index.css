@@ -35,5 +35,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #151515;
+  scrollbar-color: #696767 rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
 }
 

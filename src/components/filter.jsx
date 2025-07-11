@@ -116,8 +116,8 @@ const Filter = () => {
 
   return (
     <>
-      <div className="w-full flex items-center justify-evenly">
-        <ul className="w-[95%] h-18 rounded-xl  bg-[#ffffff14] flex items-center justify-evenly">
+      <div className="w-full flex items-center justify-evenly ">
+        <ul className="w-[95%] py-4 rounded-xl  bg-[#ffffff14] flex items-center justify-evenly flex-wrap gap-2">
           <li>
             <input
               type="button"
@@ -166,7 +166,7 @@ const Filter = () => {
               />
               <i class="bi bi-caret-down-fill icon"></i>
             </div>
-            <ul className="bg-[#1e1e1e] w-65 hidden flex-col p-5 rounded-xl items-end text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2">
+            <ul className="bg-[#1e1e1e] w-65 hidden flex-col p-5 rounded-xl items-end text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2 z-21">
               <div className="w-full flex flex-col gap-2 text-white text-sm">
                 <div className="flex gap-1">
                   <div
@@ -180,7 +180,7 @@ const Filter = () => {
                     میلادی
                   </div>
                   <div
-                    className="bg-[#80808045] rounded-tr-xl rounded-br-xl p-2 cursor-pointer hover:bg-[#80808081]"
+                    className="bg-[#80808045] rounded-tr-xl rounded-br-xl p-2 cursor-pointer hover:bg-[#80808081] "
                     onClick={() =>
                       setMinYear(1370) &
                       setMaxYear(1400) &
@@ -248,7 +248,7 @@ const Filter = () => {
               />
               <i class="bi bi-caret-down-fill icon"></i>
             </div>
-            <ul className="bg-[#1e1e1e] w-130 hidden flex-wrap p-5 justify-end rounded-xl items-center text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2 ">
+            <ul className="bg-[#1e1e1e] w-130 hidden flex-wrap p-5 justify-end rounded-xl items-center text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2 z-21">
               <div className="w-full flex justify-end text-[13px] mb-1">
                 <span className="bg-[#8080804b] rounded-xl p-1">
                   فقط سه گزینه را میتوانید انتخاب کنید{" "}
@@ -311,7 +311,7 @@ const Filter = () => {
               />
               <i class="bi bi-caret-down-fill icon"></i>
             </div>
-            <ul className="bg-[#1e1e1e] w-100 hidden flex-wrap p-5 justify-center rounded-xl items-center text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2 right-0">
+            <ul className="bg-[#1e1e1e] w-100 hidden flex-wrap p-5 justify-center rounded-xl items-center text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2 right-0 z-21">
               <div className="w-full flex justify-end text-[13px] mb-1">
                 <span className="bg-[#8080804b] rounded-xl p-1">
                   فقط سه گزینه را میتوانید انتخاب کنید{" "}
@@ -373,7 +373,7 @@ const Filter = () => {
               />
               <i class="bi bi-caret-down-fill icon"></i>
             </div>
-            <ul className="bg-[#1e1e1e] w-45 hidden flex-col p-5 rounded-xl items-end text-white peer-focus-within:flex absolute mt-11 mr-2">
+            <ul className="bg-[#1e1e1e] w-45 hidden flex-col p-5 rounded-xl items-end text-white peer-focus-within:flex absolute mt-11 mr-2 z-21">
               {age.map((item, index) => (
                 <li
                   className="item-ul"
@@ -398,7 +398,7 @@ const Filter = () => {
               />
               <i class="bi bi-caret-down-fill icon"></i>
             </div>
-            <ul className="bg-[#1e1e1e] w-50 hidden flex-col p-5 rounded-xl items-end text-white peer-focus-within:flex absolute mt-11 mr-2">
+            <ul className="bg-[#1e1e1e] w-50 hidden flex-col p-5 rounded-xl items-end text-white peer-focus-within:flex absolute mt-11 mr-2 z-21">
               {language.map((item, index) => (
                 <li
                   className="item-ul"
@@ -423,7 +423,7 @@ const Filter = () => {
               />
               <i class="bi bi-caret-down-fill icon"></i>
             </div>
-            <ul className="bg-[#1e1e1e] w-40 hidden flex-col p-5 rounded-xl items-end text-white peer-focus-within:flex absolute mt-11 mr-2">
+            <ul className="bg-[#1e1e1e] w-40 hidden flex-col p-5 rounded-xl items-end text-white peer-focus-within:flex absolute mt-11 mr-2 z-21">
               {options.map((item, index) => (
                 <li
                   className="item-ul"
@@ -438,25 +438,7 @@ const Filter = () => {
         </ul>
       </div>
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
     </>
   );
 };
