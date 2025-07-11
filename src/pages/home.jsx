@@ -3,14 +3,35 @@ import Footer from "../components/footer";
 import Slider from "../components/headerSlider";
 import SpecialCards from "../components/specialCards";
 import Filter from "../components/filter";
+import Videocardcontainer from "../components/videocardcontainer";
+import { useEffect, useState } from "react";
+import Loading from "../components/loading";
+
 const Home = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
     <>
       <TopHeader />
-      <Slider />
-      <SpecialCards />
-      <Filter/>
-      <Footer />
+      {loading ? (
+        <Loading />
+      ) : (
+        <>
+          <Slider />
+          <SpecialCards />
+          <Filter />
+          <Videocardcontainer />
+          <Footer />
+        </>
+      )}
     </>
   );
 };
