@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <>
       <TopHeader />
-      <Footer />  
+      <Footer />
       {loading ? (
         <Loading />
       ) : (

@@ -10,18 +10,19 @@ const Videocardcontainer = () => {
       try {
         const ids = Array.from({ length: 10 }, (_, i) => i + 1);
         const requests = ids.map((id) =>
-         axios.get(`${import.meta.env.VITE_MOVIES_API}/${id}`)
+          axios.get(`${import.meta.env.VITE_MOVIES_API}/${id}`)
         );
         const responses = await Promise.all(requests);
         const simplified = responses.map((res) => {
-          const { title, year, poster, imdb_rating, genres, country } = res.data;
+          const { title, year, poster, imdb_rating, genres, country } =
+            res.data;
           return {
             title,
             year,
             thumbnail: poster,
             imdb: imdb_rating,
             gener: genres?.[0] || "نامشخص",
-            country: country || "ناشناخته"
+            country: country || "ناشناخته",
           };
         });
         setMovies(simplified);
@@ -43,19 +44,18 @@ const Videocardcontainer = () => {
           <span className="text-white font-bold text-lg">بهترین ها</span>
         </div>
 
-<div className="overflow-x-hidden w-full  mt-4 mr-5 pr-5" dir="rtl" >
-  <div className="inline-flex gap-4 mt-5">
-    {movies.map((movie, index) => (
-      <Videocard key={index} {...movie} />
-    ))}
-  </div>
-</div>
-
-
+        <div className="overflow-x-hidden w-full  mt-4 mr-5 pr-5" dir="rtl">
+          <div className="inline-flex gap-4 mt-5">
+            {movies.map((movie, index) => (
+              <Videocard key={index} {...movie} />
+            ))}
+          </div>
+        </div>
       </div>
-      <br /><br /><br /><br />
-
-
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 };

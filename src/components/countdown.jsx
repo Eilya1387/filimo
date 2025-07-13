@@ -13,7 +13,7 @@ const Counter = () => {
         date={targetDate}
         renderer={({ days, hours, minutes, seconds, completed }) => {
           if (completed) {
-            return <span>⏳ زمان تمام شد!</span>;
+            return <span className="bg-[#00000096]">⏳ زمان تمام شد!</span>;
           } else {
             return (
               <div className="flex gap-1 text-lg ">
@@ -22,15 +22,12 @@ const Counter = () => {
                   <span className="p-1 rounded-lg ">{days}</span>
                 </div>
                 <div className="counter bg-[#00000096] ">
-                
-                  <span  className="p-1 rounded-lg ">{hours}</span>
+                  <span className="p-1 rounded-lg ">{hours}</span>
                 </div>
                 <div className="counter bg-[#00000096]">
-                  
                   <span className="p-1 rounded-lg ">{minutes}'</span>
                 </div>
                 <div className="counter bg-[#00000096] rounded-r-lg">
-                 
                   <span className="p-1 rounded-lg ">{seconds}"</span>
                 </div>
               </div>

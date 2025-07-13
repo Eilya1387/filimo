@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 const TopHeader = () => {
-    const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -13,11 +13,11 @@ const TopHeader = () => {
   }, []);
   return (
     <>
-          <nav
-      className={`w-full h-18 z-30 top-0 fixed flex justify-center text-white transition-colors duration-300 ${
-        scrolled ? "bg-[#151515]" : "bg-transparent"
-      }`}
-    >
+      <nav
+        className={`w-full h-18 z-30 top-0 fixed flex justify-center text-white transition-colors duration-300 ${
+          scrolled ? "bg-[#151515]" : "bg-transparent"
+        }`}
+      >
         <div className="text-[15px] font-bold w-[90%] h-full flex items-center justify-between">
           <div className="flex items-center gap-5">
             <div className="backdrop-blur-[10px] bg-[#ffffff17] hover:bg-[#ffffff09] text-center p-[12px] w-18 rounded-[10px] cursor-pointer">

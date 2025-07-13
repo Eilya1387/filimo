@@ -190,7 +190,6 @@ const SpecialCards = () => {
       )}
       <br />
       <br />
-
     </>
   );
 };

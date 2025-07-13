@@ -1,32 +1,31 @@
 @import "tailwindcss";
-.item-head{
-  @apply rounded-[10px] hover:backdrop-blur-[10px] cursor-pointer hover:bg-[#ffffff17] p-1.5
+.item-head {
+  @apply rounded-[10px] hover:backdrop-blur-[10px] cursor-pointer hover:bg-[#ffffff17] p-1.5;
 }
-.item-ul{
-  @apply rounded-[2px] cursor-pointer hover:bg-[#ffffff17] w-full text-center h-7 p-4 flex justify-end gap-1 items-center
+.item-ul {
+  @apply rounded-[2px] cursor-pointer hover:bg-[#ffffff17] w-full text-center h-7 p-4 flex justify-end gap-1 items-center;
 }
-.checkbox-ul{
-  @apply rounded-[2px] cursor-pointer hover:bg-[#ffffff17] w-30 text-center h-7 p-4 flex justify-end  items-center text-[13px]
+.checkbox-ul {
+  @apply rounded-[2px] cursor-pointer hover:bg-[#ffffff17] w-30 text-center h-7 p-4 flex justify-end  items-center text-[13px];
 }
-.nav-btn{
-  @apply rounded-[50%] p-7  w-5 h-5 backdrop-blur-[10px] bg-[#0000002c] text-[1.5rem] text-center flex items-center justify-center cursor-pointer text-white hover:bg-[#ffffff83]  z-2
+.nav-btn {
+  @apply rounded-[50%] p-7  w-5 h-5 backdrop-blur-[10px] bg-[#0000002c] text-[1.5rem] text-center flex items-center justify-center cursor-pointer text-white hover:bg-[#ffffff83]  z-2;
 }
-.master-btn{
-  @apply flex flex-col gap-5 absolute right-20 bottom-40 items-end
+.master-btn {
+  @apply flex flex-col gap-5 absolute right-20 bottom-40 items-end;
 }
-.btn{
-  @apply w-50 h-13 rounded-[10px] bg-white text-black font-bold text-[15px] text-center flex items-center justify-center  cursor-pointer
+.btn {
+  @apply w-50 h-13 rounded-[10px] bg-white text-black font-bold text-[15px] text-center flex items-center justify-center  cursor-pointer;
 }
-.inputs{
-  @apply  text-[15px]  cursor-pointer p-3 border  text-white  border-[#5d5b5b88] w-40 h-10 rounded-xl 
+.inputs {
+  @apply text-[15px]  cursor-pointer p-3 border  text-white  border-[#5d5b5b88] w-40 h-10 rounded-xl;
 }
-.icon{
-  @apply  text-white absolute left-4 top-2 peer-focus:rotate-180 transition-transform
+.icon {
+  @apply text-white absolute left-4 top-2 peer-focus:rotate-180 transition-transform;
 }
-.counter{
-  @apply  flex gap-1
+.counter {
+  @apply flex gap-1;
 }
-@tailwind utilities;
 html {
   scroll-behavior: smooth;
 }
@@ -36,6 +35,5 @@ body {
   padding: 0;
   background-color: #151515;
   scrollbar-color: #696767 rgba(0, 0, 0, 0);
-    scrollbar-width: thin;
+  scrollbar-width: thin;
 }
-

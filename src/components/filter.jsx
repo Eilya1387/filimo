@@ -139,7 +139,11 @@ const Filter = () => {
                 className=" inputs "
               />
               <label className=" inline-block w-9 h-4 cursor-pointer absolute left-4 top-3">
-                <input type="checkbox" className="sr-only peer"  onClick={() => setOnHD(prev => !prev)}/>
+                <input
+                  type="checkbox"
+                  className="sr-only peer"
+                  onClick={() => setOnHD((prev) => !prev)}
+                />
 
                 <div className="w-full h-full bg-gray-400 rounded-full peer-checked:bg-amber-400 transition-colors duration-300"></div>
                 <div
@@ -438,7 +442,6 @@ const Filter = () => {
         </ul>
       </div>
       <br />
-
     </>
   );
 };
