@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 3000);
 
     return () => clearTimeout(timeout);
   }, []);
@@ -21,6 +21,7 @@ const Home = () => {
   return (
     <>
       <TopHeader />
+      <Footer />  
       {loading ? (
         <Loading />
       ) : (
@@ -29,7 +30,6 @@ const Home = () => {
           <SpecialCards />
           <Filter />
           <Videocardcontainer />
-          <Footer />
         </>
       )}
     </>
