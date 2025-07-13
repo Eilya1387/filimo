@@ -17,19 +17,19 @@ const Counter = () => {
           } else {
             return (
               <div className="flex gap-1 text-lg ">
-                <div className="counter bg-[#00000053]">
+                <div className="counter bg-[#00000096] rounded-l-lg">
                   <span className="text-shadow text-shadow-lg/5">روز</span>
                   <span className="p-1 rounded-lg ">{days}</span>
                 </div>
-                <div className="counter bg-[#00000053] ">
+                <div className="counter bg-[#00000096] ">
                 
                   <span  className="p-1 rounded-lg ">{hours}</span>
                 </div>
-                <div className="counter bg-[#00000053]">
+                <div className="counter bg-[#00000096]">
                   
                   <span className="p-1 rounded-lg ">{minutes}'</span>
                 </div>
-                <div className="counter bg-[#00000053] rounded-r-lg">
+                <div className="counter bg-[#00000096] rounded-r-lg">
                  
                   <span className="p-1 rounded-lg ">{seconds}"</span>
                 </div>
