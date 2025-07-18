@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
+import { Navigation, Autoplay, EffectFade } from "swiper/modules";
 import Counter from "./countdown";
 const Slider = () => {
   return (
@@ -30,7 +30,7 @@ const Slider = () => {
         >
           <SwiperSlide>
             <div
-              className="w-full h-full bg-cover bg-center flex items-end p-10 text-white"
+              className="w-full h-full bg-cover bg-center flex items-end  text-white"
               style={{ backgroundImage: "url('/slide1.webp')" }}
             >
               <div className="master-btn">
