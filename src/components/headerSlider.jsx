@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import { Navigation, Autoplay, EffectFade } from "swiper/modules";
 import Counter from "./countdown";
