@@ -6,6 +6,7 @@ import Filter from "../components/filter";
 import Videocardcontainer from "../components/videocardcontainer";
 import { useEffect, useState } from "react";
 import Loading from "../components/loading";
+import BottomNav from "../components/BottomNav";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -21,16 +22,17 @@ const Home = () => {
   return (
     <>
       <TopHeader />
+      <BottomNav /> {/* <-- This is the new component */}
       <Footer />
       {loading ? (
         <Loading />
       ) : (
-        <>
+        <div className="pb-16 md:pb-0"> {/* <-- Added padding to prevent content from being hidden by the bottom nav */}
           <Slider />
           <SpecialCards />
           <Filter />
           <Videocardcontainer />
-        </>
+        </div>
       )}
     </>
   );

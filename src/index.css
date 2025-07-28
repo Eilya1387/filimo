@@ -37,3 +37,6 @@ body {
   scrollbar-color: #696767 rgba(0, 0, 0, 0);
   scrollbar-width: thin;
 }
+.bottom-nav-item {
+  @apply flex flex-col items-center gap-1 text-gray-400;
+}
