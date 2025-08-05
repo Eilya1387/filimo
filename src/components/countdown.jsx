@@ -6,7 +6,6 @@ const Counter = () => {
   targetDate.setMonth(7);
   targetDate.setDate(20);
   targetDate.setHours(14, 0, 0, 0);
-
   return (
     <>
       <Countdown
@@ -16,19 +15,19 @@ const Counter = () => {
             return <span className="bg-[#00000096]">⏳ زمان تمام شد!</span>;
           } else {
             return (
-              <div className="flex gap-1 text-lg ">
-                <div className="counter bg-[#00000096] rounded-l-lg">
-                  <span className="text-shadow text-shadow-lg/5">روز</span>
-                  <span className="p-1 rounded-lg ">{days}</span>
+              <div className="flex gap-1 text-lg">
+                <div className="counter rounded-l-lg">
+                  <span>روز</span>
+                  <span className="p-1">{days}</span>
                 </div>
-                <div className="counter bg-[#00000096] ">
-                  <span className="p-1 rounded-lg ">{hours}</span>
+                <div className="counter ">
+                  <span className="p-1">{hours}</span>
                 </div>
-                <div className="counter bg-[#00000096]">
-                  <span className="p-1 rounded-lg ">{minutes}'</span>
+                <div className="counter">
+                  <span className="p-1">{minutes}'</span>
                 </div>
-                <div className="counter bg-[#00000096] rounded-r-lg">
-                  <span className="p-1 rounded-lg ">{seconds}"</span>
+                <div className="counter rounded-r-lg">
+                  <span className="p-1">{seconds}"</span>
                 </div>
               </div>
             );
