@@ -10,7 +10,7 @@ const Loading = () => {
           baseColor="#202020"
           highlightColor="#444"
         />
-        <div className="w-full flex flex-col gap-5 items-end -mt-90 -ml-30">
+        <div className="w-full flex flex-col gap-5 items-center sm:items-end -mt-90 -ml-0 sm:-ml-30">
           <Skeleton
             width={"20rem"}
             height={"6rem"}
@@ -30,7 +30,7 @@ const Loading = () => {
             highlightColor="#202020"
           />
         </div>
-        <div className="flex gap-1 ml-30 -mt-25 ">
+        <div className="md:flex gap-1 ml-30 -mt-25 hidden">
           <Skeleton
             circle={true}
             width={"4rem"}
