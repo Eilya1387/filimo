@@ -123,7 +123,7 @@ const Filter = () => {
               type="button"
               value="فیلتر"
               disabled={!isFilterChanged}
-              className="cursor-pointer bg-white font-bold rounded-lg w-35 h-10 disabled:bg-[#ffffff21] disabled:text-[#0000005b] disabled:cursor-default"
+              className="cursor-pointer bg-white font-bold rounded-lg w-40 h-10 disabled:bg-[#ffffff21] disabled:text-[#0000005b] disabled:cursor-default"
             />
           </li>
 

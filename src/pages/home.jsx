@@ -6,6 +6,7 @@ import Filter from "../components/filter";
 import Videocardcontainer from "../components/videocardcontainer";
 import { useEffect, useState } from "react";
 import Loading from "../components/loading";
+import BottomNav from "../components/BottomNav";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -21,16 +22,17 @@ const Home = () => {
   return (
     <>
       <TopHeader />
+      <BottomNav />
       <Footer />
       {loading ? (
         <Loading />
       ) : (
-        <>
+        <div>
           <Slider />
           <SpecialCards />
           <Filter />
           <Videocardcontainer />
-        </>
+        </div>
       )}
     </>
   );
