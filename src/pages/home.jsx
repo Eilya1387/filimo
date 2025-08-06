@@ -22,12 +22,12 @@ const Home = () => {
   return (
     <>
       <TopHeader />
-      <BottomNav /> {/* <-- This is the new component */}
+      <BottomNav />
       <Footer />
       {loading ? (
         <Loading />
       ) : (
-        <div className="pb-16 md:pb-0"> {/* <-- Added padding to prevent content from being hidden by the bottom nav */}
+        <div>
           <Slider />
           <SpecialCards />
           <Filter />

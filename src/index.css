@@ -12,7 +12,7 @@
   @apply rounded-[50%] p-7  w-5 h-5 backdrop-blur-[10px] bg-[#0000002c] text-[1.5rem] text-center flex items-center justify-center cursor-pointer text-white hover:bg-[#ffffff83]  z-2;
 }
 .master-btn {
-  @apply flex flex-col gap-5 absolute right-20 bottom-40 items-end;
+  @apply flex flex-col gap-5 absolute p-20 transform-[scale(.8)] md:transform-[scale(1)] sm:transform-[scale(1)] -right-3 bottom-13 sm:p-0 sm:right-50 sm:bottom-23 md:bottom-40 md:right-20 md:items-end items-center;
 }
 .btn {
   @apply w-50 h-13 rounded-[10px] bg-white text-black font-bold text-[15px] text-center flex items-center justify-center  cursor-pointer;

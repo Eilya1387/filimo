@@ -8,14 +8,15 @@ const Slider = () => {
   return (
     <>
       <div className=" relative">
-        <div className="absolute flex bottom-40 left-20 gap-2">
-          <button className="custom-prev nav-btn ">
-            <i class="bi bi-chevron-left"></i>
+        <div className="absolute bottom-60 md:bottom-30 w-full px-4 flex justify-between md:left-20 md:w-auto md:gap-2 md:justify-start">
+          <button className="custom-prev nav-btn">
+            <i className="bi bi-chevron-left"></i>
           </button>
           <button className="custom-next nav-btn">
-            <i class="bi bi-chevron-right"></i>
+            <i className="bi bi-chevron-right"></i>
           </button>
         </div>
+
         <Swiper
           modules={[Navigation, Autoplay, EffectFade]}
           navigation={{
