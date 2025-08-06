@@ -15,4 +15,6 @@ This is a beautiful and responsive clone of **Filimo's home page**, built using 
 - ⚡ [Vite](https://vitejs.dev/) — Lightning-fast bundler for development
 - ⚛️ [React](https://reactjs.org/) — Powerful UI library for building interfaces
 - 🎨 [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS framework for rapid UI development
-
+---
+<b>Responsive by Mahan(NoteduCo342)</b><br><br>
+<b>Many thanks dear Mahan(NoteduCo342)❤️</b>
