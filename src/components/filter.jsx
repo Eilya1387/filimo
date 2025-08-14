@@ -170,7 +170,7 @@ const Filter = () => {
               />
               <i class="bi bi-caret-down-fill icon"></i>
             </div>
-            <ul className="bg-[#1e1e1e] w-65 hidden flex-col p-5 rounded-xl items-end text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2 z-21">
+            <ul className="bg-[#1e1e1e] w-65 hidden flex-col p-5 rounded-xl items-end text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2 max-sm:-mr-18 z-21 max-[370px]:-ml-10">
               <div className="w-full flex flex-col gap-2 text-white text-sm">
                 <div className="flex gap-1">
                   <div
@@ -252,7 +252,7 @@ const Filter = () => {
               />
               <i class="bi bi-caret-down-fill icon"></i>
             </div>
-            <ul className="bg-[#1e1e1e] w-130 hidden flex-wrap p-5 justify-end rounded-xl items-center text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2 z-21">
+            <ul className="bg-[#1e1e1e] w-130 hidden flex-wrap p-5 justify-end rounded-xl items-center text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2 z-21 max-lg:mr-85 max-md:-mr-85 max-sm:w-100 max-sm:mr-50 max-sm:transform-[scale(.9)] max-[370px]:ml-50 max-[370px]:!w-70 max-[370px]:mt-5">
               <div className="w-full flex justify-end text-[13px] mb-1">
                 <span className="bg-[#8080804b] rounded-xl p-1">
                   فقط سه گزینه را میتوانید انتخاب کنید{" "}
@@ -315,7 +315,7 @@ const Filter = () => {
               />
               <i class="bi bi-caret-down-fill icon"></i>
             </div>
-            <ul className="bg-[#1e1e1e] w-100 hidden flex-wrap p-5 justify-center rounded-xl items-center text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2 right-0 z-21">
+            <ul className="bg-[#1e1e1e] w-100 hidden flex-wrap p-5 justify-center rounded-xl items-center text-white peer-focus-within:flex hover:flex absolute mt-11 mr-2 right-0 z-21 max-[769px]:-mr-60 max-sm:-mr-51 max-sm:transform-[scale(.9)] max-[370px]:!-mr-23 max-[370px]:w-85">
               <div className="w-full flex justify-end text-[13px] mb-1">
                 <span className="bg-[#8080804b] rounded-xl p-1">
                   فقط سه گزینه را میتوانید انتخاب کنید{" "}
