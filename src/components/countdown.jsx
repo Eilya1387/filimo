@@ -3,7 +3,7 @@ import Countdown from "react-countdown";
 const Counter = () => {
   const targetDate = new Date();
   targetDate.setFullYear(2025);
-  targetDate.setMonth(7);
+  targetDate.setMonth(12);
   targetDate.setDate(22);
   targetDate.setHours(14, 0, 0, 0);
   return (
